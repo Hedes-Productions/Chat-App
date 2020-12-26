@@ -1,0 +1,27 @@
+{
+  "name": "doctor-chat",
+  "version": "1.0.0",
+  "description": "This is a chat app.",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hedes-Productions/Chat-App.git"
+  },
+  "author": "Hedes Productions",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hedes-Productions/Chat-App/issues"
+  },
+  "homepage": "https://github.com/Hedes-Productions/Chat-App#readme",
+  "dependencies": {
+    "socket.io": "^3.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
